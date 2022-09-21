@@ -196,11 +196,11 @@ Much better! Now let's see if we can get that first test to pass. Open up
 
 When we write our code, we follow the guidance of the tests. Let's take a look
 at that first error:
-
-```console
+'''console
   1) shout(string)
        receives one argument and returns it in all caps:
-     ReferenceError: shout is not defined
+
+renceError: shout is not defined
       at Context.<anonymous> (test/index-test.js:4:5)
       at processImmediate (internal/timers.js:461:21)
 ```
